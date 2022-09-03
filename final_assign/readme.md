@@ -238,7 +238,7 @@ The `time` command return the three value for every command executed on linux.
 
 ![Plot of System time wrt N ](./graphs/PyD_System.png)
 
-![Plot of System/CPU time wrt N ](./graphs/PyD_User.png)
+![Plot of System/CPU time wrt N ](./graphs/PyD_SystemVsCPU.png)
 
 
 
@@ -246,10 +246,12 @@ The `time` command return the three value for every command executed on linux.
 
 - We have observed that the execution time of the program increases `exponentially` with respect to the increase in the input size of the program 
 
-- But the system-cpu time (system calls) does not increases significantly with increase in input size. Rather we see that it tends to a satuaration point with size.
+- But the system-cpu time (system calls) does not increases significantly with increase in input size. Rather we see that it tends to a satuaration (not exactly constant but seems constant with respect to input size) point with size.
 
 >  `Meat vs  Total time `
 
 - Initially with smaller inputs, there is a visinle variation in meat algorithm time and total time.
 
 - But as the input size increases, the difference
+
+> The ratio of meat time and total time becomes `99%` as the input value becomes very large
