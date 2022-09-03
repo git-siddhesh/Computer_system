@@ -163,15 +163,15 @@ The `time` command return the three value for every command executed on linux.
 
 ![Data for Golang matrix multiplication on integer data.](./sheets/goi_time.png)
 
-### SYSTEM time v/s CPU time of GOLANG-INT code:
+### SYSTEM time v/s CPU time of GOLANG-DOUBLE code:
 
 ![Data for Golang matrix multiplication on float data.](./sheets/god_time.png)
 
-### SYSTEM time v/s CPU time of GOLANG-INT code:
+### SYSTEM time v/s CPU time of PYTHON-INT code:
 
 ![Data for Python matrix multiplication on integer data.](./sheets/pyi_time.png)
 
-### SYSTEM time v/s CPU time of GOLANG-INT code:
+### SYSTEM time v/s CPU time of PYTHON-DOUBLE code:
 
 ![Data for Python matrix multiplication on float data.](./sheets/pyd_time.png)
 
@@ -189,6 +189,9 @@ The `time` command return the three value for every command executed on linux.
 ![Meat v/s Total time for PYTHON](./sheets/py_meat_total.png)
 ![Meat v/s Total time for PYTHON](./graphs/PyI_MeatVsTotal.png)
 
+> In this, my observation is that the meat and Total time ration is increasing with increase in input size.
+
+> But as the input size increases to a very large number the ratio tends to a saturation of `90%`
 
 
 ## 2.C Plot of System and Program time execution 
@@ -200,6 +203,14 @@ The `time` command return the three value for every command executed on linux.
 ## Python
 
 ![](./graphs/Py_C.png)
+
+
+> Meat portion time for the Golang code
+![Meat v/s Total time for GOLANG](./graphs/GoD_MeatVsTotal.png)
+
+> Meat portion time for the Golang code
+![Meat v/s Total time for PYTHON](./graphs/PyI_MeatVsTotal.png)
+
 
 ### PLOTs for Golang-Int
 ![Plot of User time wrt N ](./graphs/GoI_User.png)
