@@ -1,3 +1,10 @@
+- Question 1.a file in `final_assign/mips_files` and `final_assign/x_86_files`
+- Question 3.a: `final_assign\3\3.a`
+- Question 3.b: `final_assign\3\3.b`
+- Go files: `final_assign\go_mat\a_int_go\matrix_mul.go` and `final_assign\go_mat\b_double_go\*`
+- Python files: `final_assign\python_mat\*`
+
+
 # Generate all the temporary files 
 
 ## Generate temp files for x_86
@@ -258,6 +265,8 @@ The `time` command return the three value for every command executed on linux.
 ### `MEAT`, `TOTAL PROGRAM EXECUTION`, `CPU` time VS `SYSTEM` time
 
 We have oberseved that the meat time, total time, and CPU time increases `exponential slope` whereas the system time increases with very `small slope` value.
+
+
 
 
 
