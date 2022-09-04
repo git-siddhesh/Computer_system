@@ -254,4 +254,11 @@ The `time` command return the three value for every command executed on linux.
 
 - But as the input size increases, the difference
 
-> The ratio of meat time and total time becomes `99%` as the input value becomes very large
+> The ratio of meat time and total time becomes approx `99%` as the input value becomes very large
+
+### `MEAT`, `TOTAL PROGRAM EXECUTION`, `CPU` time VS `SYSTEM` time
+
+We have oberseved that the meat time, total time, and CPU time increases `exponential slope` whereas the system time increases with very `small slope` value.
+
+
+
