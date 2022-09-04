@@ -175,7 +175,7 @@ The `time` command return the three value for every command executed on linux.
 
 ![Data for Python matrix multiplication on float data.](./sheets/pyd_time.png)
 
-
+![Data for Python matrix multiplication on float data](./sheets/PyD_time.png)
 
 ## 2.B Meat vs Total 
 
